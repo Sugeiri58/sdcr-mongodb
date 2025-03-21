@@ -1,0 +1,19 @@
+//cuando pnemos en "use" un nombre el cual no existe en nuestra base de datos(CLOUSTER)
+// automáticamente MongoDB la crea, dandole el nombre que ingresamos en este caso: "utt_sdcr_store"
+
+use ("utt_sdcr_store")
+
+//Algo similar sucede aquí, al poner db.products cramos la colección "products" e insertamos
+//los datos
+
+db.products.insertOne({
+    id: 1,
+    name: "Product 1"
+    price: 1000
+})
+
+db.products.insertOne({
+    id: 2,
+    name: "Product 2"
+    price: 100
+})

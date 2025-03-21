@@ -1,0 +1,15 @@
+use ("utt_sdcr_store")
+
+db.products.updateOne(
+    //Query id
+    {_id: 2},
+    //Change -> Operador de cambio 
+    { 
+        $set: {
+             name: 'Change name fix'
+        }
+       
+    }
+)
+
+
