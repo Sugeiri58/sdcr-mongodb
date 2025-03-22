@@ -1,0 +1,10 @@
+use ("utt_sdcr_store")
+
+db.products.updateOne(
+
+    {_id: ObjectId("67de4c73f09b423ef1d87628")}, 
+    { 
+        $inc: {
+              price: 97
+        }
+    }
