@@ -7,13 +7,13 @@ use ("utt_sdcr_store")
 //los datos
 
 db.products.insertOne({
-    id: 1,
-    name: "Product 1"
+    _id: "2025-01",
+    name: "Product 1",
     price: 1000
 })
 
 db.products.insertOne({
-    id: 2,
-    name: "Product 2"
+    _id: "2025-mar-02",
+    name: "Product 2",
     price: 100
 })

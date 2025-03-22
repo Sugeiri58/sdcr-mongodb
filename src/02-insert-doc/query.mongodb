@@ -1,4 +1,4 @@
-use ("utt_sdcr_store)
+use ("utt_sdcr_store")
 
 db.products.find()
 
