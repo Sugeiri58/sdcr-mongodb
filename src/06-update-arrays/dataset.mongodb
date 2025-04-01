@@ -1,6 +1,6 @@
-use("utt_store")
+use("utt_sdcr_store")
 
-db.inventory.dro()
+db.inventory.drop()
 
 db.inventory.insertMany([
     { _id: 1, item: { name: "item ab", code: "123", description : "Single line description."    }, qty: 15, tags: [ "school", "book", "bag", "headphone", "appliance" ], },
